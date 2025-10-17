@@ -33,6 +33,7 @@ theme: minima
 #  - jekyll-remote-theme
 
 header_pages:
+  - index.markdown
   - photos.markdown
   - stories.markdown
   - submissions.markdown

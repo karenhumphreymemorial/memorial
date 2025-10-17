@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 <div class="layered-container">
@@ -16,5 +17,27 @@ Karen A. Humphrey (née Doersam) passed away in her home in Union, Kentucky on S
 
       </p>
     </div>
+  </div>
+</div>
+
+<div class="button-grid">
+  <div class="button-item">
+    <a href="{{ '/photos/' | relative_url }}" class="home-button">Photos</a>
+    <p class="button-desc">View photos of Karen</p>
+  </div>
+
+  <div class="button-item">
+    <a href="{{ '/stories/' | relative_url }}" class="home-button">Stories</a>
+    <p class="button-desc">Read stories about Karen</p>
+  </div>
+
+  <div class="button-item">
+    <a href="{{ '/submissions/' | relative_url }}" class="home-button">Submissions</a>
+    <p class="button-desc">Submit your own photos, videos, or stories of Karen</p>
+  </div>
+
+  <div class="button-item">
+    <a href="{{ '/donations/' | relative_url }}" class="home-button">Donations</a>
+    <p class="button-desc">Make a donation to charity to honor Karen</p>
   </div>
 </div>

@@ -11,11 +11,11 @@ permalink: /photos/
 
   <img src="{{ '/assets/images/karenHerWedding.png' | relative_url }}" alt="">
   <img src="{{ '/assets/images/karenChairHumphrey.png' | relative_url }}" alt="">
-  <img src="{{ '/assets/images/karenMain.png' | relative_url }}" alt="">
+  <img src="{{ '/assets/images/karenMain.jpg' | relative_url }}" alt="">
 
  
   <img src="{{ '/assets/images/karenSnowballHome.png' | relative_url }}" alt="">
-  <img src="{{ '/assets/images/karenGrandmaLauraWedding.png' | relative_url }}" alt="">
+  <img src="{{ '/assets/images/karenGrandmaLauraWedding.jpg' | relative_url }}" alt="">
   <img src="{{ '/assets/images/karenHenryLauraWedding.jpg' | relative_url }}" alt="">
   
 </div>

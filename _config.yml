@@ -28,8 +28,8 @@ url: "https://karenhumphreymemorial.github.io"
 #github_username:  none
 
 # Build settings
-theme : minima
-# remote_theme: "jekyll/minima@c6e74bb"
+# theme : minima
+remote_theme: "jekyll/minima@c6e74bb"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -2,11 +2,15 @@
 layout: home
 ---
 
+  <img src="{{ '/assets/images/logo_aatod.gif' | relative_url }}"
+
+
+
 <div class="layered-container">
-  <img src="{{ site.baseurl }}/assets/images/IMG_6546.png" alt="Background" class="bg-image">
+  <img src="{{ '/assets/images/IMG_6546.png' | relative_url }}" alt="Background" class="bg-image">
 
   <div class="foreground">
-    <img src="{{ site.baseurl }}/assets/images/karenMain.png" alt="Main" class="main-image">
+    <img src="{{ '/assets/images/karenMain.png' | relative_url }}" alt="Main" class="main-image">
 
     <div class="text-box">
       <h2><b>Karen Humphrey</b></h2>

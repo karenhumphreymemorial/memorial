@@ -5,7 +5,7 @@ permalink: /stories/
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
-  <img src="{{ '/assets/images/karenGrandmaLauraWedding.png' | relative_url }}"
+  <img src="{{ '/assets/images/karenGrandmaLauraWedding.jpg' | relative_url }}"
        alt="Laura's Wedding"
        width="350"
        style="flex-shrink: 0;">

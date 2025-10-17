@@ -7,7 +7,7 @@ permalink: /donations/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
 
   <img src="{{ '/assets/images/logo_path.png' | relative_url }}"
-       alt="Path Logo"
+       alt="PATH Logo"
        width="250"
        style="flex-shrink: 0;">
 
@@ -64,7 +64,7 @@ permalink: /donations/
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
 
-<img src="{{ '/assets/images/logo_aatod.gif' | relative_url }}"
+  <img src="{{ '/assets/images/logo_aatod.gif' | relative_url }}"
        alt="AATOD Logo"
        width="250"
        style="flex-shrink: 0;">

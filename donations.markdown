@@ -5,7 +5,8 @@ permalink: /donations/
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
-  <img src="{{ site.baseurl }}/assets/images/logo_path.png"
+
+  <img src="{{ '/assets/images/logo_path.png' | relative_url }}"
        alt="Path Logo"
        width="250"
        style="flex-shrink: 0;">
@@ -38,7 +39,7 @@ permalink: /donations/
 
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-direction: row-reverse; margin-bottom: 80px;">
-  <img src="{{ site.baseurl }}/assets/images/logo_joslin.svg"
+    <img src="{{ '/assets/images/logo_joslin.svg' | relative_url }}"
        alt="Joslin Logo"
        width="250"
        style="flex-shrink: 0;">
@@ -62,7 +63,8 @@ permalink: /donations/
  </div>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
-  <img src="{{ site.baseurl }}/assets/images/logo_aatod.gif"
+
+<img src="{{ '/assets/images/logo_aatod.gif' | relative_url }}"
        alt="AATOD Logo"
        width="250"
        style="flex-shrink: 0;">

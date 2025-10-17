@@ -22,15 +22,15 @@ title: The Karen A. Humphrey Memorial
 email: karenhumphreymemorial@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A memorial site for Karen A. Humphrey
-baseurl: "/memorial"
-url: "https://karenhumphreymemorial.github.io"
+baseurl: /memorial
+url: https://karenhumphreymemorial.github.io/memorial
 
 # Build settings
-remote_theme: jekyll/minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
+theme: minima
+#plugins:
+#  - jekyll-feed
+#  - jekyll-seo-tag
+#  - jekyll-remote-theme
 
 header_pages:
   - photos.markdown

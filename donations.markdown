@@ -4,16 +4,12 @@ title: Donations
 permalink: /donations/
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
-
+<div class="image-text-block">
   <img src="{{ '/assets/images/logo_path.png' | relative_url }}"
-       alt="PATH Logo"
-       width="250"
-       style="flex-shrink: 0;">
+       alt="PATH Logo">
 
   <div>
     <h1>Professional Association of Therapeutic Horsemanship International (PATH Intl)</h1>
-
 
     <b>Professional Association of Therapeutic Horsemanship
     International (PATH Intl.)</b>, a federally-registered 501(c3)
@@ -33,7 +29,8 @@ permalink: /donations/
     and development to serve wide-ranging audiences for such educational
     purposes as leadership training, team building and other human
     capacity enhancement skills for the workplace and for daily
-    use. Visit Path International <a href="https://pathintl.org/" target="_blank" rel="noopener noreferrer">HERE</a>.
+    use. Visit Path International
+    <a href="https://pathintl.org/" target="_blank" rel="noopener noreferrer">HERE</a>.
   </div>
 </div>
 

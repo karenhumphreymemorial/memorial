@@ -36,9 +36,7 @@ permalink: /donations/
 
 <div class="image-text-block" style="flex-direction: row-reverse;">
     <img src="{{ '/assets/images/logo_joslin.svg' | relative_url }}"
-       alt="Joslin Logo"
-       width="250"
-       style="flex-shrink: 0;">
+         alt="Joslin Logo">
 
   <div>
     <h1>Joslin</h1>
@@ -61,9 +59,7 @@ permalink: /donations/
 <div class="image-text-block">
 
   <img src="{{ '/assets/images/logo_aatod.gif' | relative_url }}"
-       alt="AATOD Logo"
-       width="250"
-       style="flex-shrink: 0;">
+       alt="AATOD Logo">
 
   <div>
     <h1>The American Association for the Treatment of Opioid Dependence, Inc. (AATOD)</h1>

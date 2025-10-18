@@ -4,7 +4,7 @@ title: Stories
 permalink: /stories/
 ---
 
-<div class="image-text-block">
+<div class="image-text-block" style="flex-direction: column;">
   <img src="{{ '/assets/images/karenGrandmaLauraWedding.jpg' | relative_url }}"
        alt="Laura's Wedding">
   <div>

@@ -34,8 +34,7 @@ permalink: /donations/
   </div>
 </div>
 
-
-<div style="display: flex; align-items: flex-start; gap: 20px; flex-direction: row-reverse; margin-bottom: 80px;">
+<div class="image-text-block" style="flex-direction: row-reverse;">
     <img src="{{ '/assets/images/logo_joslin.svg' | relative_url }}"
        alt="Joslin Logo"
        width="250"
@@ -59,7 +58,7 @@ permalink: /donations/
   </div>
  </div>
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 80px;">
+<div class="image-text-block">
 
   <img src="{{ '/assets/images/logo_aatod.gif' | relative_url }}"
        alt="AATOD Logo"

@@ -63,22 +63,23 @@
   flex-shrink: 0;
   width: 250px;
   height: auto;
-  border-radius: 0; /* optional */
+  border-radius: 0;
 }
 
-/* On smaller screens, make the image smaller and adjust spacing */
-@media (max-width: 700px) {
+
+@media (max-width: 800px) {
   .image-text-block {
-    gap: 12px;                /* reduce space between image and text */
-    align-items: center;      /* vertically align better */
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 40px;
   }
 
   .image-text-block img {
-    width: 120px;             /* shrink image width */
+    width: 100px;
   }
 
   .image-text-block h1 {
-    font-size: 1.4em;         /* optional: reduce large headings */
+    font-size: 1.4em;
   }
 }
 

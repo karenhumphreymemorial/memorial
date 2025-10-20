@@ -33,6 +33,20 @@
 }
 
 /******************************************************************************/
+/* Set modifications for style elements */
+/******************************************************************************/
+
+.site-title {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+  .site-title {
+    font-size: 1.2rem;
+  }
+}
+
+/******************************************************************************/
 /* Styles for photo collage div class
 /******************************************************************************/
 
@@ -131,8 +145,8 @@
   display: flex;
   justify-content: center;
   margin: 40px auto;
-  max-width: 900px;
-  padding: 20px; /* give some breathing room */
+  max-width: 800px;
+  padding: 20px;
 }
 
 .bg-image {
@@ -157,7 +171,16 @@
   gap: 18px;
   max-width: 800px;
   padding: 20px 30px;
-  background: rgba(255,255,255,0.0);
+  /* background: rgba(255,255,255,0.0); */
+}
+
+@media (max-width: 800px) {
+  .foreground {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 15px;
+  }
 }
 
 .main-image {
@@ -174,11 +197,15 @@
   max-width: 500px;
 }
 
+/******************************************************************************/
+/* Styles for landing page buttons */
+/******************************************************************************/
+
 /* Grid for homepage buttons */
 .button-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px 30px; /* more vertical space between rows */
+  gap: 40px 30px;
   max-width: 700px;
   margin: 50px auto;
   text-align: center;
@@ -203,8 +230,8 @@
   border-radius: 8px;
   transition: background-color 0.3s, transform 0.2s;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-  min-width: 150px; /* keeps them nicely compact */
-  max-width: 180px; /* narrower overall look */
+  min-width: 150px;
+  max-width: 180px;
 }
 
 .home-button:hover {
